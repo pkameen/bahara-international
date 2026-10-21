@@ -1,16 +1,16 @@
 import director1 from "../assets/management/director1.jpg";
 import director2 from "../assets/management/director2.jpg";
-import director3 from "../assets/management/director3.jpg"; 
+import director3 from "../assets/management/director3.jpg";
 import { motion } from "framer-motion";
 
 function About() {
   const directors = [
     {
       image: director1,
-      name: "Sayyid Haidroos",
-      role: "Founder & Global Trade Director",
+      name: "Sayyid Haidroos C",
+      role: "Director of Sales & Distribution",
       description:
-        "Leading Bahara International with commitment, trust, and excellence in global spice exports.",
+        "Leading Teams. Driving Sales. Delivering Growth.",
     },
 
     {
@@ -106,7 +106,7 @@ function About() {
         </div>
 
         {/* Leadership Team */}
-        <div 
+        <div
           id="management-team"
           className="text-center mb-16"
         >
@@ -231,7 +231,7 @@ function About() {
         </div>
 
       </div>
-    </motion.section> 
+    </motion.section>
   );
 }
 

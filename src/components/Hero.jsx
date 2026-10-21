@@ -1,6 +1,6 @@
 import heroBg from "../assets/hero/hero.jpg";
 import { motion } from "framer-motion";
-import { TypeAnimation } from "react-type-animation"; 
+import { TypeAnimation } from "react-type-animation";
 
 function Hero() {
   return (

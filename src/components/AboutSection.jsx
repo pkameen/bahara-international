@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import aboutImage from "../assets/spices/about-spices.jpg";  
+import aboutImage from "../assets/spices/about-spices.jpg";
 
 function AboutSection() {
   return (
@@ -10,7 +10,7 @@ function AboutSection() {
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.8 }}
       viewport={{ once: true }}
->
+    >
       <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-16 items-center">
 
         <div>
@@ -31,7 +31,7 @@ function AboutSection() {
 
           <div className="mt-8 grid grid-cols-2 gap-6">
             <div>
-              <h3 className="text-3xl font-bold text-yellow-600">2+</h3>
+              <h3 className="text-3xl font-bold text-yellow-600">10+</h3>
               <p className="text-gray-600">Premium Products</p>
             </div>
 
@@ -42,11 +42,11 @@ function AboutSection() {
           </div>
 
           <a href="/about#management-team"
-             className="inline-block mt-8 bg-yellow-500 text-black px-8 py-4 rounded-full font-semibold hover:scale-105 transition duration-300"
+            className="inline-block mt-8 bg-yellow-500 text-black px-8 py-4 rounded-full font-semibold hover:scale-105 transition duration-300"
           >
             View Founders
           </a>
-          
+
         </div>
 
         <div className="rounded-[30px] overflow-hidden shadow-2xl">
@@ -58,7 +58,7 @@ function AboutSection() {
         </div>
 
       </div>
-    </motion.section> 
+    </motion.section>
   );
 }
 
